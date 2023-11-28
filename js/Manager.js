@@ -115,12 +115,12 @@ export default class Manager
 
     if( missionarieLeft < cannibalLeft && missionarieLeft != 0 )
     {
-      alert("Mais Canibais que Missionários no lado esquerdo;");
+      alert("Mais Raposas que Coelhos no lado esquerdo;");
       this.gameOver();
     }
     else if (missionarieRight < cannibalRight && missionarieRight != 0)
     {
-      alert("Mais Canibais que Missionários no lado direito;");
+      alert("Mais Raposas que Coelhos no lado direito;");
       this.gameOver();
     }
     else if ((cannibalRight+missionarieRight) == this.number)
